@@ -26,6 +26,6 @@ build = {
    modules = {
       faketorio = "src/faketorio.lua",
       faketorio_busted = "src/faketorio_busted.lua",
-      mod-gui = "src/mod-gui.lua"
+      mod-gui = "lib/mod-gui.lua"
    }
 }
