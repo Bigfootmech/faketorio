@@ -13,7 +13,9 @@ describe("Faketorio should be usable with busted", function()
 
     faketorio.initialize_world_busted()
 
-    assert.is_not_nil(_G.game)
+    for name, element in pairs(faketorio.world) do
+      assert.is_equal(_G[name], element)
+    end
     assert.is_equal(#_G.game.players, 2)
   end)
 

@@ -15,6 +15,7 @@ describe('Basic faketorio features', function()
     assert.is_truthy(world.global)
     assert.is_truthy(world.serpent)
     assert.is_truthy(world.game.players)
+    assert.is_truthy(world.mod_gui)
 
     assert.are.equal(#world.game.players, 2)
   end)

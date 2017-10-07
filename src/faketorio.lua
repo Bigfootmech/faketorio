@@ -7,6 +7,7 @@ function faketorio.initialize_world()
   faketorio.world.script = {}
   faketorio.world.global = {}
   faketorio.world.serpent = require("serpent")
+  faketorio.world.mod_gui = require("mod-gui")
 
   faketorio.world.game.players = {}
   faketorio.world.game.players[1] = faketorio.create_player("Player_1")
